@@ -3,6 +3,8 @@
 -- fpm.package: heulitig.github.io/Rubik
 zip: github.com/heulitig/Rubik/archive/refs/heads/main.zip
 
+-- fpm.dependency: fifthtry.github.io/package-doc
+
 -- fpm.auto-import: fpm
 
 -- fpm.font: Rubik

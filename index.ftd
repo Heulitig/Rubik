@@ -1,5 +1,44 @@
--- import: heulitig.github.io/Rubik as rubik
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fpm
 
--- fpm.type.headline-small.font: $rubik.fonts.Rubik
 
--- ftd.text: Hehe boii
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+-- ftd.column:
+width: fill
+padding-horizontal: 50
+padding-horizontal if $is-mobile: 20
+background-color: $fpm.color.main.background.base
+height: fill
+
+
+-- pd.package: Inter - fpm font
+name: heulitig.github.io/rubik
+
+This component consist of Inter font with all it's styles from Thin-100 to Black-900.
+
+
+-- pd.component: Rubik - fpm font
+name: https://github.com/heulitig/rubik
+
+This component consist of Inter font with all it's styles from Thin-100 to Black-900.
+
+
+
+-- pd.hidden-code: How to use
+
+include heulitig.github.io/rubik package into FPM.ftd file
+
+\-- fpm.dependency: heulitig.github.io/rubik
+
+\-- fpm.auto-import: heulitig.github.io/rubik as rubik
+
+Inside your .ftd file to change for any specific token use:
+
+\-- fpm.type.headline-small.font: $rubik.fonts.Inter
+
+\-- ftd.text:
+role: $fpm.type.headline-small
