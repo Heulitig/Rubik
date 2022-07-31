@@ -15,7 +15,7 @@ background-color: $fpm.color.main.background.base
 height: fill
 
 
--- pd.package: Inter - fpm font
+-- pd.package: Rubik - fpm font
 name: heulitig.github.io/rubik
 
 This component consist of Inter font with all it's styles from Thin-100 to Black-900.
