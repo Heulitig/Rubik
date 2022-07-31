@@ -1,1 +1,5 @@
--- ds.page: hello
+-- import: heulitig.github.io/Rubik as rubik
+
+-- fpm.type.headline-small.font: $rubik.fonts.Rubik
+
+-- ftd.text: Hehe boii
